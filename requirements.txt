@@ -1,0 +1,16 @@
+# INQUIRE_CSI – Python packages imported by the three notebooks
+# Tested with Python 3.11.14 (Anaconda, 64-bit, Windows)
+# Install: pip install -r requirements.txt
+pandas==2.3.3
+numpy==2.3.3
+scipy==1.16.3
+statsmodels==0.14.5
+matplotlib==3.10.7
+plotly==6.5.2
+networkx==3.5
+openpyxl==3.1.5
+tqdm==4.67.1
+ipywidgets==8.1.7
+jupyterlab==4.4.7
+ipykernel==6.30.1
+ipython==9.7.0

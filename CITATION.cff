@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "INQUIRE_CSI – Contaminant Source Identification Pipeline"
+version: "1.0"
+date-released: "2026-10-26"
+license: "MIT License"
+repository-code: "https://github.com/r3bryk/INQUIRE_CSI"
+abstract: "Python/JupyterLab pipeline that attributes organic compounds detected in environmental samples (e.g., household dust) 
+  by non-target screening to their most plausible source categories, using a master contaminant source database and 
+  a weighted set-cover optimization with priors."
+keywords:
+  - non-target screening
+  - contaminant source identification
+  - household dust
+  - set cover
+  - exposome
+authors:
+  - family-names: "Rebryk"
+    given-names: "Andriy"
+    affiliation: "Vrije Universiteit Amsterdam"
+    orcid: "https://orcid.org/0000-0002-0090-809X"
+  - family-names: "Molenaar"
+    given-names: "Douwe"
+    affiliation: "Vrije Universiteit Amsterdam"
+    orcid: "https://orcid.org/0000-0001-7108-4545"

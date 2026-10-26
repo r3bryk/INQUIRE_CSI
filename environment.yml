@@ -1,0 +1,11 @@
+# INQUIRE_CSI – conda environment
+# Create:   conda env create -f environment.yml
+# Activate: conda activate inquire_csi
+name: inquire_csi
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11   # tested with 3.11.14
+  - pip
+  - pip:
+      - -r requirements.txt
