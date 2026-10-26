@@ -31,7 +31,7 @@ flowchart LR
 | 2 | `INQUIRE_CSI_Pt2_Analysis_and_Validation.ipynb` – Contaminant Source Analysis and Validation | Source identification per sample (greedy + beam search set cover with priors) and a full validation suite | 05:02:00 |
 | 3 | `INQUIRE_CSI_Pt3_Visualization.ipynb` (optional) | Figures of the best cover per sample: sample-group × source-category heatmaps (sample group = first two letters of the sample ID, e.g., country), Sankey diagram, interactive 3D networks | 00:12:13 |
 
-\*Reference run (~193 samples) on a Microsoft Surface Laptop 5 (Intel Core i7-1265U, 16 GB RAM, Windows 11), Python 3.11.14; total Parts 1–3: 05:27:52. See [docs/installation.md](docs/installation.md).
+\*Reference run (~200 samples) on a Microsoft Surface Laptop 5 (Intel Core i7-1265U, 16 GB RAM, Windows 11), Python 3.11.14; total Parts 1–3: 05:27:52. See [docs/installation.md](docs/installation.md).
 
 ---
 
@@ -142,6 +142,6 @@ If you use this pipeline, please cite it as:
 
 GitHub also shows a "Cite this repository" button based on [CITATION.cff](CITATION.cff).
 
-## Funding and acknowledgments
+## Funding
 
 This work was funded by the European Union under grant agreement Project No. 101057499 – INQUIRE. This work was also co-funded by UK Research and Innovation (UKRI) under the UK government’s Horizon Europe funding guarantee [grant numbers 10038689 and 10042425] and the Australian National Health and Medical Research Council (NHMRC) [NHMRC; 2022/GNT2017837].
